@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Navigation with Logo & Highlight</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  
+  <!-- Link to external CSS file -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <div class="scroll-indicator" id="scrollIndicator"></div>
+
+  <nav class="navbar" id="navbar">
+    
+    <div class="nav-links">
+      <a href="#home" class="nav-link home-hover active"><i class="fas fa-home"></i> Home</a>
+      <a href="#about" class="nav-link about-hover"><i class="fas fa-info-circle"></i> About</a>
+      <a href="#services" class="nav-link services-hover"><i class="fas fa-bell-concierge"></i> Services</a>
+      <a href="#portfolio" class="nav-link portfolio-hover"><i class="fas fa-briefcase"></i> Portfolio</a>
+      <a href="#contact" class="nav-link contact-hover"><i class="fas fa-envelope"></i> Contact</a>
+    </div>
+  </nav>
+
+  <main>
+    <section id="home" class="active">
+      <div>
+        <h2 class="blink">Home</h2>
+        <p>Welcome to our website! Scroll or use navigation to explore.</p>
+      </div>
+    </section>
+
+    <section id="about">
+      <div>
+        <h2>About Us</h2>
+        <p>Learn more about what we do and why we do it.</p>
+      </div>
+    </section>
+
+    <section id="services">
+      <div>
+        <h2>Our Services</h2>
+        <p>We offer high quality solutions tailored to your needs.</p>
+      </div>
+    </section>
+
+    <section id="portfolio">
+      <div>
+        <h2>Portfolio</h2>
+        <p>Check out our latest projects and client successes.</p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div>
+        <h2>Contact Us</h2>
+        <p>We'd love to hear from you. Drop us a message!</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Link to external JavaScript file -->
+  <script src="script.js"></script>
+</body>
+</html>
